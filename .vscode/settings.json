@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.tabs.enabled": false,
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "*.hbs": "handlebars",
+        "xstring": "cpp"
+    }
+}

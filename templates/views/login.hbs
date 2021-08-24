@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee.login</title>
+</head>
+<body>
+        {{>navbar}}
+        <section class="loginSection">
+        <div class="login">
+            <img class="login-image" src="https://img.icons8.com/ios-glyphs/100/c7c7c7/user-male--v2.png" />
+            <div class="Loginform">
+                <form action="/login" method="POST" class="oForm">
+                    <input class="loginInput" type="text" name="email" placeholder="Email" required>
+                    <input class="loginInput" type="password" name="password" placeholder="Password" required>
+                    <input class="loginBtn" type="submit" value="Sign in"></button>
+                    <div class="remember">
+                        <label class="checkboxlebal">
+                            <input type="checkbox" name="checkbox" id="checkbox" value="remember-me">
+                            Remember me
+                        </label>
+                        <a href="#" class="needHelp">Need help?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a href="/registration">Create an account</a>
+    </section>
+</body>
+   <script src="./script/script.js"></script>
+</html>
